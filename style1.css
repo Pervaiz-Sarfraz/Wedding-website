@@ -1,0 +1,322 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gotopbtn {
+    position: fixed;
+    display: block;
+    top: 580px;
+    left: 1290px;
+    text-align: center;
+    background: #6c5ce7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    transition: all 0.5s;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(bodybuilder-646506_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navgation {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left {
+
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left img {
+    width: 30%;
+}
+
+.left h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mid {
+    color: white;
+    position: sticky;
+    top: 4px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Baloo Bhai';
+    padding: 8px 10px;
+    margin: 12px 1px;
+}
+
+.navbar li a:hover {
+    color: grey;
+    border-radius: 2px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+}
+
+.navbar .fa {
+    margin: 8px;
+}
+
+.right {
+
+    color: white;
+}
+
+.btn {
+    padding: 15px 9px;
+    background: #E7E7E7;
+    font-size: 15px;
+    color: black;
+    margin: 7px 8px;
+    border: none;
+    outline: none;
+    font-family: 'Baloo Bhai';
+    background: none;
+    border: 2px solid white;
+    
+}
+
+.btn:hover {
+    background-color: white;
+    transition: all 0.9s;
+}
+
+.burger {
+    position: absolute;
+    display: none;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line {
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 3px;
+
+}
+
+.middle {
+    display: block;
+    top: 130px;
+    left: 200px;
+    position: relative;
+    color: white;
+    width: 40%;
+    height: 1000px;
+}
+
+.middle h2 {
+    font-size: 20px;
+}
+
+.btn-sm {
+    display: block;
+    position: relative;
+    top: 12px;
+    left: 5px;
+    margin: 4px 102px;
+}
+
+.container1 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    display: block;
+    border-radius: 10px;
+    width: 40%;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-group input {
+    display: block;
+    margin: 12px 51px;
+    padding: 9px 93px;
+    border-radius: 20px;
+    width: 40%;
+    font-size: 21px;
+}
+
+.btn1 {
+    padding: 14px 17px;
+    margin-left: 20px;
+    background: #555555;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 0px 150px;
+}
+
+.btn1:hover {
+    background: #008CBA;
+    transition: all 0.4s ease-out;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 12px;
+    color: #555;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.shops {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.shopbx {
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+    flex-basis: 20%;
+    transition: transform 0.5s;
+}
+.shopbx:hover {
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+    flex-basis: 20%;
+transform: translateX(12px);
+}
+
+.shopbx img {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.shopbx h3 {
+    font-size: 20px;
+    font-family: 'Baloo Bhai';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.clients {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.clientbx {
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+    flex-basis: 20px;
+    transition: transform 0.5s;
+}
+.clientbx:hover {
+    transform:scale(0.9);
+}
+
+.clientbx img {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.clientbx h3 {
+    font-size: 20px;
+    font-family: 'Baloo Bhai';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+.classbx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-right {
+    display: block;
+    margin: 20px 30px;
+}
+
+.sec-right img {
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.sec-left {
+    display: block;
+    margin: 20px 30px;
+}
+
+.sec-left h4 {
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Baloo Bhai';
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sec-left p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.classes-left {
+    flex-direction: row-reverse;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*..................................................................................................................*/
